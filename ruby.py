@@ -37,30 +37,30 @@ def takeCommand():
     r = sr.Recognizer()
 
     with sr.Microphone() as source:
-        # # led right indication that ruby is listening {---
-        # response=mybolt.isOnline()
-        # data=json.loads(response)
-        # if data["value"]=="online":
-        #     mybolt.digitalWrite('0','HIGH')#0 is the gpio pin
-        # else:
-        #     print("Your device is offline")
-        # # ---}
+         # led light indication that ruby is listening {---
+         response=mybolt.isOnline()
+         data=json.loads(response)
+         if data["value"]=="online":
+             mybolt.digitalWrite('0','HIGH')#0 is the gpio pin
+         else:
+             print("Your device is offline")
+         # ---}
 
-        r.adjust_for_ambient_noise(source)
-        print('Listening...')
-        r.pause_threshold = 0.8
-        audio = r.listen(source)
+         r.adjust_for_ambient_noise(source)
+         print('Listening...')
+         r.pause_threshold = 0.8
+         audio = r.listen(source)
 
     try:
-        # # led right indication that ruby is listening {---
-        # res=mybolt.isOnline()
-        # data=json.loads(res)
-        # if data["value"]=="online":
-        #     mybolt.digitalWrite('0','LOW')
-        # else:
-        #     print("Your device is offline")
-        # # ---}
-
+        # led light indication that ruby is listening {---
+        res=mybolt.isOnline()
+        data=json.loads(res)
+        if data["value"]=="online":
+            mybolt.digitalWrite('0','LOW')
+        else:
+            print("Your device is offline")
+        # ---}
+        
         print('Recognizing...')
         query = r.recognize_google(audio, language = 'en-in')
         print('You: ', query)
@@ -280,10 +280,6 @@ def startruby():
             say_this = 'No application to close.'
             print(say_this)
             text2speech(say_this)
-    elif 'who is neha' in query:
-        say_this = 'Neha is gandu'
-        print(say_this)
-        text2speech(say_this)
 
 if __name__ == '__main__':
     # loading data.json
@@ -291,15 +287,15 @@ if __name__ == '__main__':
     data = json.load(f)
 
     # boltiot device info {---
-    API_key = "073efd14-fca5-4e97-b723-ad0db338dd87"
-    Device_ID = "BOLT14000750"
+    API_key = "your boltiot API key"
+    Device_ID = "your boltiot device id"
     mybolt = Bolt(API_key,Device_ID)
 
     mybolt.digitalWrite('0','LOW')
     # ---}
 
     # wolframalpha {---
-    app_id = 'GTPA8U-9KXWPURTE6'
+    app_id = 'your app id'
     # Instance of wolf ram alpha 
     # client class
     client = wolframalpha.Client(app_id)
