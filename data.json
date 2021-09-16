@@ -1,0 +1,60 @@
+{
+    "greeting" : ["Hey there!", "Hi Jason!", "Hello!", "Hi, Welcome Back!"],
+
+    "my_name" : ["Abba Jason Samuel", "Your name is Jason",
+                 "Jason is your name"],
+
+    "my_birthday" : ["20th October", "October 20th", 
+                     "It's on 20th of October"],
+
+    "my_dob" : ["20/10/2000", "It's 20th October, 2000", "20-10-2000"],
+
+    "my_blood_group" : ["A+", "Your blood group is A+", "It's A+"],
+
+    "my_phone_num" : [6300516201, "+916300516201", "Your phone number is 6300516201",
+                      "It's 6300516201"],
+    "my_address" : ["22A / 3232, Prayas CoOp Hsg. Society, Veer Shrikant Keshav Hadkar Marg, Abhyudaya nagar, Kalachowki, Mumbai, Kalachowki, Mumbai, Maharashtra, 4000333",
+                    "Your address is \n 22A / 3232, Prayas CoOp Hsg. Society, Veer Shrikant Keshav Hadkar Marg, Abhyudaya nagar, Kalachowki, Mumbai, Kalachowki, Mumbai, Maharashtra, 4000333",
+                    "Your address mentioned in your Aadhar Card is \n 22A / 3232, Prayas CoOp Hsg. Society, Veer Shrikant Keshav Hadkar Marg, Abhyudaya nagar, Kalachowki, Mumbai, Kalachowki, Mumbai, Maharashtra, 4000333"],
+
+    "pan_number" : ["DHWPA8780H", "It's DHWPA8780H", "Your PAN is DHWPA8780H"],
+
+    "aadhar_number" : [977936545823, "It's 977936545823", "Your Aadhar number is 977936545823"],
+
+    "license_number" : [],
+
+    "passport_number" : ["T3960047", "It's T3960047", "Your Passport number is T3960047"],
+    
+    "weather" : [],
+
+    "time_and_date" : [],
+
+    "play_music" : [],
+
+    "youtube" : ["Opening YouTube", "Cueing Video", "Playing on YouTube", "Here you go!", "On it"],
+
+    "bye" : ["Bye Jason", "See you soon!", "Sad to see you go", "Be back soon", "Ciao Adios",
+             "Bye-Bye", "Ruby signing off!" ],
+
+    "search" : ["Searching it!", "On it", "This is what I found", "Here you go!"],
+
+    "information" : ["Here's what I found"],
+
+    "spotify" : ["Opening Spotify"],
+
+    "angel" : ["+919431245820"],
+
+    "sarah" : ["+918310956247"],
+
+    "jason" : ["+916300516201"],
+
+    "json" : ["+916300516201"],
+
+    "bull" : ["+918252979682"],
+
+    "bul" : ["+918252979682"],
+
+    "vishal" : ["+919620061383"]
+
+
+}
