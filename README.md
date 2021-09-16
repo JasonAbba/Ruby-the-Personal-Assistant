@@ -2,7 +2,7 @@
 Ruby is a hardcoded personal assistant to suit my everyday workflow.
 
 ## Introduction
-Ruby is brought to life by Python. It was born out of curiosity of myself having an own personal assistant who would assign me in my daily task like googling something quickly or playing music on youtube or opening and closing my applications etc. It has many such functionalities to ease my daily workflow.
+Ruby is brought to life by Python. It was born out of curiosity of myself having an own personal assistant who would assist me in my daily task like googling something quickly or playing music on youtube or opening and closing my applications etc. It has many such functionalities to ease my daily workflow.
 
 ## Technologies
 
